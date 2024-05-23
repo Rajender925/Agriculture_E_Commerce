@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final project</title>
+
+<style>
+body {
+    background-image: url();
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+  
+    #first {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRda0yq2vAUYwkeMn2OznKuVfxMGZU8M_V43DY0yLmuIA&s);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#first:hover {
+    background-color: rgb(225, 240, 235);
+
+}
+#head1 {
+    color: rgb(11, 113, 45);
+    width: 190px;
+    border-radius: 20px;
+    font-style: italic
+}
+#agri {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    height: 70px;
+   width: 250px;
+    border-radius: 20px;
+}
+#agri1 {
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    height: 70px;
+    border-radius: 20px;
+}
+#li1 {
+    position: absolute;
+    top: 40px;
+    left: 600px; 
+}
+#li2 {
+    position: absolute;
+    top: 40px;
+    left: 715px; 
+}
+#li3 {
+    position: absolute;
+    top: 40px;
+    left: 830px; 
+}
+#audio {
+    position: absolute;
+    top: 34px;
+  right: 200px;
+}
+.ab {
+    text-decoration: none;
+    color: black;
+}
+.home {
+    position: absolute;
+    top: 170px;
+    left: 12px;
+}
+.pro {
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+.about {
+    position: absolute;
+    top: 170px;
+    right: 190px;
+    height: 30px;
+}
+
+.con {
+    position: absolute;
+    top: 170px;
+    right: 90px;
+    height: 30px;
+}
+
+.help {
+    position: absolute;
+    top: 170px;
+    right: 25px;
+
+}
+.login {
+    position: absolute;
+    top: 170px;
+    right: 280px;
+   
+}
+#second {
+    background-image: url(https://wallpaperaccess.com/full/1463871.jpg);
+    height: 60px;
+}
+#abticon {
+    position:absolute;
+    right:200px;
+}
+#helpicon {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+}
+#conicon {
+    position: absolute;
+    top: 130px;
+    right: 110px;
+}
+#logicon {
+    position: absolute;
+    right: 280px;
+    border-radius: 150px;
+    top: 133px;
+}
+#producticon {
+    position: absolute;
+   top: 130px; 
+   left: 90px;
+}
+#aside {
+    position: absolute;
+    top: 200px;
+    height: 400px;
+    background-color: rgb(221, 219, 214);
+    width: 600px;
+}
+
+
+
+.advertisement {
+  width: 500px; 
+  height: 500px; 
+  position: absolute;
+  top: 200px;
+  border: 3px solid black;
+  
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.advertisement img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; 
+  animation: moveimages 5s infinite; 
+  border-radius: 10px;
+
+}
+
+@keyframes moveimages {
+  0% { opacity: 0; } 
+  20% { opacity: 1; } 
+  80% { opacity: 1; } 
+  100% { opacity: 0; } 
+}
+
+#img1 {
+  animation-delay: 0s; 
+  width: 500px; 
+  height: 500px; 
+}
+
+#img2 {
+  animation-delay: 5s; 
+  width: 500px; 
+  height: 500px; 
+}
+
+#img3 {
+  animation-delay: 10s;
+  width: 500px; 
+  height: 500px; 
+}
+
+#img4 {
+  animation-delay: 15s; 
+  width: 500px; 
+  height: 500px; 
+}
+
+#img5 {
+  animation-delay: 20s; 
+  width: 500px; 
+  height: 500px; 
+}
+
+#img6 {
+  animation-delay: 25s;
+  width: 500px; 
+  height: 500px; 
+}
+
+#content {
+    position: absolute;
+    width:900px;
+    height:513px;
+    top: 200px;
+    right:3px;
+    border-radius: 20px;
+    margin: 10px
+}
+
+#content1 {
+    border-radius: 40px;
+    height: 475px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid rgb(212, 21, 21);
+    transition: transform 0.5s;
+    box-shadow: 0 0 15px black;
+}
+
+
+#content1:hover {
+    transform: scale(1.2,1.1);
+}
+#content1 img {
+    height:475px;
+    width: 500px;
+    border-radius: 40px;
+}
+
+#content2 {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+#content2 input{
+    width: 250px;
+    height: 35px;
+    border-radius: 40px;
+    border: 2px solid black;
+
+}
+
+#content3 {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    background-color:white;
+    width: 250px;
+    height: 360px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(118, 240, 135, 0.5);
+    transition: transform 0.5s;
+}
+#content3:hover {
+  transform: scale(1.2);
+}
+#content3 img {
+    position: absolute;
+    top: 50px;
+    left: 57px;
+    border-radius: 100px;
+    border: 2px solid orange;
+    transition: transform 0.5s;
+    box-shadow: 0 0 40px rgb(26, 225, 12);
+}
+
+#content3 img:hover {
+    transform: scale(1.2);
+}
+#content h2 {
+    position: absolute;
+    top: 180px;
+    left: 35px;
+    color: blue;
+}
+#content h4 {
+    position: absolute;
+    top: 220px;
+    left: 29px;
+    color:rgb(202, 50, 42);
+}
+
+
+#products {
+    position:absolute;
+    top: 800px;
+    left: 50px;
+    width:1400px;
+}
+
+.product1 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product1:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product2 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 150px;
+  left: 380px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product2:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+.product3 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 150px;
+  left: 710px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product3:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product4 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 150px;
+  left: 1040px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product4:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+
+
+
+.product5 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 650px;
+  left: 50px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product5:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product6 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 650px;
+  left: 380px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product6:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+.product7 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 650px;
+  left: 710px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product7:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product8 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 650px;
+  left: 1040px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product8:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+
+
+.product9 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1140px;
+  left: 50px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product9:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product10 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1140px;
+  left: 380px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product10:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+.product11 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1140px;
+  left: 710px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product11:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product12 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1140px;
+  left: 1040px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product12:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+
+.product13 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1630px;
+  left: 50px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product13:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product14 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1630px;
+  left: 380px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product14:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+.product15 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1630px;
+  left: 710px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product15:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product16 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 1630px;
+  left: 1040px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product16:hover {
+  transform: scale(1.3);
+  background-color: greenyellow; 
+}
+
+
+
+.product17 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 2120px;
+  left: 50px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product17:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product18 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 2120px;
+  left: 380px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product18:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+
+.product19 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 2120px;
+  left: 710px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product19:hover {
+  transform: scale(1.3); 
+  background-color: greenyellow; 
+}
+
+.product20 {
+  width: 250px;
+  padding: 10px;
+  border: 5px solid black;
+  transition: transform 0.5s; 
+  position: absolute;
+  top: 2120px;
+  left: 1040px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius:100px ;
+  box-shadow: 0 0 30px green;
+}
+
+.product20:hover {
+  transform: scale(1.3);
+  background-color: greenyellow; 
+}
+
+
+#seemore {
+  position: absolute;
+  top: 3400px;
+  left: 620px;
+}
+.seebutt {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size:medium;
+  font-style: italic;
+  border-radius: 50px;
+  box-shadow: 0px 0px 50px black;
+  transition: transform 0.5s;
+}
+
+.seebutt:hover{
+  background-color: blue;
+  transform: scale(1.3);
+}
+
+#brand {
+  position: absolute;
+  top:3500px;
+}
+
+#brand img {
+  width: 1200px;
+  transition: transform 0.5s;
+  position: absolute;
+  left: 132px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 20px;
+}
+
+#brand img:hover {
+  transform: scale(1.2);
+}
+
+.details p {
+  margin: 5px 0;
+}
+#products button {
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    color:white;
+    box-shadow: 0px 0px 20px black;
+    height: 25px;
+    transition: transform 0.5s;
+}
+#products button:hover {
+  transform: scale(1.1);
+  background-color: blue;
+}
+
+
+#products img {
+  transition: transform 1s;
+}
+#products img:hover {
+  transform: scale(1.2);
+}
+
+#about {
+  position: absolute;
+  top: 3800px;
+  left: 50px;
+  width: 1400px;
+}
+#about h1 {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 130px;
+}
+
+#why {
+  width: 1000px;
+  position: absolute;
+  left: 200px;
+  top: 700px;
+  transition: transform 0.5s;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px;
+  }
+
+ #why:hover {
+transform: scale(1.2);
+ } 
+
+
+ #contact {
+  position: absolute;
+  top: 4800px;
+ 
+  width: 1450px;
+ }
+
+ #us {
+  background-color: black;
+  color: white;
+  width: 160px;
+  border-radius: 10px;
+ }
+
+ #form {
+  background-image: linear-gradient(rgb(107, 111, 108), rgb(162, 224, 166));
+  width: 800px;
+  border-radius: 20px;
+  height: 400px;
+  box-shadow: 0px 0px 20px;
+  transition: transform 0.5s;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+ }
+
+ /* #form:hover {
+  background-image: linear-gradient(rgb(176, 196, 184), rgb(180, 20, 113));
+  transform: scale(1.2);
+  box-shadow: 0px 0px 20px sandybrown;
+ } */
+
+ #formdiv {
+  position: absolute;
+  top: 140px;
+  left: 300px;
+ }
+</style>
+</head>
+<body>
+    <div id="first">
+        <img src="logo1.png"  id="agri">
+        <CENTER><h1 id="head">SREE AGRO FORMS</h1>
+            <h4 id="li1">Crop</h4>
+            <h4 id="li2">Water</h4>
+            <h4 id="li3">People</h4>
+       <h3 id="head1">Attractive Agriculture</h3>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxhqSejAPd9VSTKxmEV8dIUe02Mns80-GGAsjyDeuZTQ&s"  id="agri1">
+       <audio controls id="audio">
+        <source src="padara.mp3">
+       </audio>
+        </CENTER>
+       
+    </div>  
+    <hr>
+    <div id="second">
+        <img src="home.png" width="40px">
+        <a href="#homepage" class="ab home">Home</a>
+        <img src="abt.png" width="40px" id="abticon">
+        <a href="#about" class="ab about">About Us</a>
+        <img src="raj1.JPG" width="40px" height="40px" id="logicon">
+        <a href="login.html" class="ab login">Rajender</a>
+        <img src="https://cdn-icons-png.flaticon.com/128/6596/6596115.png" width="40px" height="40px" id="conicon">
+        <a href="#contact" class="ab con">Contact Us</a>
+        <img src="product.png" width="40px" id="producticon">
+        <a href="#products" class="ab pro">Products</a>
+        <img src="https://cdn0.iconfinder.com/data/icons/entypo/92/help-512.png" width="40px" height="40px" id="helpicon">
+        <a href="#help" class="ab help">Help</a>
+    </div>
+    <div id="home">
+    <div class="advertisement">
+        <img src="https://www.thestatesman.com/wp-content/uploads/2017/08/1489860649-agriculture-getty-517.jpg" id="img1">
+        <img src="https://cdna.artstation.com/p/assets/images/images/039/824/630/large/nagarajan-kavitha-mat5.jpg?1627041953" id="img2">
+        <img src="https://images.hive.blog/0x0/https://cdn.steemitimages.com/DQmXKqwqTDXMudPYgxfdEgi4nnX8YJNjmjUuVPg8FeBEN7Q/FB_IMG_1541046019251.jpg" id="img3">
+        <img src="https://www.thestatesman.com/wp-content/uploads/2017/08/1489860649-agriculture-getty-517.jpg" id="img4">
+        <img src="https://lh3.googleusercontent.com/Pphi_pumo-pdm9hDgo1M1hfA-8Bd6I0uwOg5a6ex7E9vpLtXWGwxX_1be7bVovjVgGluYZGJPXqPdDbnpOJ9PEM=s900" id="img5">
+        <img src="https://t3.ftcdn.net/jpg/05/88/80/92/360_F_588809279_S1ralUnos2SZ49oUiMHmGMW309iQ6LiZ.jpg" id="img6">  
+    </div>
+    
+
+    <div id="content">
+       <div id="content1">
+     <img src="logo.png" alt="" width="">
+       </div>
+       <div id="content2">
+        <input type="search" placeholder="Search products">
+       </div>
+       <div id="content3">
+        <img src="raj1.JPG" alt="" width="50%">
+        <h2>Rajender Bhukya</h2>
+        <h4>Secretary and Director (SAF)</h4>
+       </div>
+    </div>
+ </div>
+
+
+ <div id="products" >
+    <h1 style="background-color:black; border-radius: 10px; color: white; width: 130px;" id="producthead">Products</h1>
+        <hr>
+    
+    
+           
+           
+                <div class="product1">
+                    <center><h2>Confidor</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/NJ/FR/PL/16508186/bayer-confidor-insecticide.jpg" width="70%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>controlling sucking and piercing insects in onion, grapes, lettuce and vegetable brassica crops..</p>
+                      <h3>Price: $399/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>see more</button> -->
+                      
+                    </div></center>
+                  </div>
+
+                  <div class="product2">
+                    <center><h2>Bio Advanced</h2>
+                        <img src="https://th.bing.com/th/id/R.72ce88ba586ad2fae9e4256d8f15c549?rik=UTwD5ROyZVbeFQ&riu=http%3a%2f%2fd2ul0w83gls0j4.cloudfront.net%2fproducts%2f71%2f600%2f713587.jpg&ehk=IKGWm1iCp%2f1uVFrtNEwqi%2fIBfOQGNZ2NR6yl5H8EgW0%3d&risl=&pid=ImgRaw&r=0" alt="" width="37.8%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>BioAdvanced Complete Insect Killer with Germ Killer measures 24-ounces. Active Ingredients: 0.05% β- Cyfluthrin; 0.30% Sodium O-phenylphenate.</p>
+                      <h3>Price: $449/-</h3>
+                      <button>Add to Crt</button>
+                      <button>Buy Now</button><br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product3">
+                    <center><h2>Decis</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/TM/ZC/FH/28154989/bayer-decis-agriculture-insecticide.JPG" alt="" width="52%" style="border-radius: 50px;">
+                    <div class="details">
+                      <p>acts by contact and ingestion, and exhibiting a broad spectrum control of chewing and sucking insects.</p>
+                      <h3>Price: $499/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product4">
+                    <center><h2>Laudis</h2>
+                        <img src="https://www.agriplexindia.com/cdn/shop/files/2.png?v=1690374207" alt="" width="52%" style="border-radius: 20px;">
+                    <div class="details">
+                      <p>provides powerful residual grass and broadleaf control combined with crop safety.</p>
+                      <h3>Price: $799/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+
+
+
+                  <div class="product5">
+                    <center><h2>Confidor</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/NJ/FR/PL/16508186/bayer-confidor-insecticide.jpg" width="70%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>controlling sucking and piercing insects in onion, grapes, lettuce and vegetable brassica crops..</p>
+                      <h3>Price: $399/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+                  <div class="product6">
+                    <center><h2>Bio Advanced</h2>
+                        <img src="https://th.bing.com/th/id/R.72ce88ba586ad2fae9e4256d8f15c549?rik=UTwD5ROyZVbeFQ&riu=http%3a%2f%2fd2ul0w83gls0j4.cloudfront.net%2fproducts%2f71%2f600%2f713587.jpg&ehk=IKGWm1iCp%2f1uVFrtNEwqi%2fIBfOQGNZ2NR6yl5H8EgW0%3d&risl=&pid=ImgRaw&r=0" alt="" width="37.8%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>BioAdvanced Complete Insect Killer with Germ Killer measures 24-ounces. Active Ingredients: 0.05% β- Cyfluthrin; 0.30% Sodium O-phenylphenate.</p>
+                      <h3>Price: $449/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button><br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product7">
+                    <center><h2>Decis</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/TM/ZC/FH/28154989/bayer-decis-agriculture-insecticide.JPG" alt="" width="52%" style="border-radius: 50px;">
+                    <div class="details">
+                      <p>acts by contact and ingestion, and exhibiting a broad spectrum control of chewing and sucking insects.</p>
+                      <h3>Price: $499/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product8">
+                    <center><h2>Laudis</h2>
+                        <img src="https://www.agriplexindia.com/cdn/shop/files/2.png?v=1690374207" alt="" width="52%" style="border-radius: 20px;">
+                    <div class="details">
+                      <p>provides powerful residual grass and broadleaf control combined with crop safety.</p>
+                      <h3>Price: $799/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+
+
+
+
+                  <div class="product9">
+                    <center><h2>Confidor</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/NJ/FR/PL/16508186/bayer-confidor-insecticide.jpg" width="70%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>controlling sucking and piercing insects in onion, grapes, lettuce and vegetable brassica crops..</p>
+                      <h3>Price: $399/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+                  <div class="product10">
+                    <center><h2>Bio Advanced</h2>
+                        <img src="https://th.bing.com/th/id/R.72ce88ba586ad2fae9e4256d8f15c549?rik=UTwD5ROyZVbeFQ&riu=http%3a%2f%2fd2ul0w83gls0j4.cloudfront.net%2fproducts%2f71%2f600%2f713587.jpg&ehk=IKGWm1iCp%2f1uVFrtNEwqi%2fIBfOQGNZ2NR6yl5H8EgW0%3d&risl=&pid=ImgRaw&r=0" alt="" width="37.8%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>BioAdvanced Complete Insect Killer with Germ Killer measures 24-ounces. Active Ingredients: 0.05% β- Cyfluthrin; 0.30% Sodium O-phenylphenate.</p>
+                      <h3>Price: $449/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button><br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product11">
+                    <center><h2>Decis</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/TM/ZC/FH/28154989/bayer-decis-agriculture-insecticide.JPG" alt="" width="52%" style="border-radius: 50px;">
+                    <div class="details">
+                      <p>acts by contact and ingestion, and exhibiting a broad spectrum control of chewing and sucking insects.</p>
+                      <h3>Price: $499/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product12">
+                    <center><h2>Laudis</h2>
+                        <img src="https://www.agriplexindia.com/cdn/shop/files/2.png?v=1690374207" alt="" width="52%" style="border-radius: 20px;">
+                    <div class="details">
+                      <p>provides powerful residual grass and broadleaf control combined with crop safety.</p>
+                      <h3>Price: $799/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+           
+                  
+
+
+
+                  <div class="product13">
+                    <center><h2>Confidor</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/NJ/FR/PL/16508186/bayer-confidor-insecticide.jpg" width="70%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>controlling sucking and piercing insects in onion, grapes, lettuce and vegetable brassica crops..</p>
+                      <h3>Price: $399/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+                  <div class="product14">
+                    <center><h2>Bio Advanced</h2>
+                        <img src="https://th.bing.com/th/id/R.72ce88ba586ad2fae9e4256d8f15c549?rik=UTwD5ROyZVbeFQ&riu=http%3a%2f%2fd2ul0w83gls0j4.cloudfront.net%2fproducts%2f71%2f600%2f713587.jpg&ehk=IKGWm1iCp%2f1uVFrtNEwqi%2fIBfOQGNZ2NR6yl5H8EgW0%3d&risl=&pid=ImgRaw&r=0" alt="" width="37.8%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>BioAdvanced Complete Insect Killer with Germ Killer measures 24-ounces. Active Ingredients: 0.05% β- Cyfluthrin; 0.30% Sodium O-phenylphenate.</p>
+                      <h3>Price: $449/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button><br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product15">
+                    <center><h2>Decis</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/TM/ZC/FH/28154989/bayer-decis-agriculture-insecticide.JPG" alt="" width="52%" style="border-radius: 50px;">
+                    <div class="details">
+                      <p>acts by contact and ingestion, and exhibiting a broad spectrum control of chewing and sucking insects.</p>
+                      <h3>Price: $499/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product16">
+                    <center><h2>Laudis</h2>
+                        <img src="https://www.agriplexindia.com/cdn/shop/files/2.png?v=1690374207" alt="" width="52%" style="border-radius: 20px;">
+                    <div class="details">
+                      <p>provides powerful residual grass and broadleaf control combined with crop safety.</p>
+                      <h3>Price: $799/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div> 
+                  
+                  <div class="product17">
+                    <center><h2>Confidor</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/NJ/FR/PL/16508186/bayer-confidor-insecticide.jpg" width="70%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>controlling sucking and piercing insects in onion, grapes, lettuce and vegetable brassica crops..</p>
+                      <h3>Price: $399/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+                  <div class="product18">
+                    <center><h2>Bio Advanced</h2>
+                        <img src="https://th.bing.com/th/id/R.72ce88ba586ad2fae9e4256d8f15c549?rik=UTwD5ROyZVbeFQ&riu=http%3a%2f%2fd2ul0w83gls0j4.cloudfront.net%2fproducts%2f71%2f600%2f713587.jpg&ehk=IKGWm1iCp%2f1uVFrtNEwqi%2fIBfOQGNZ2NR6yl5H8EgW0%3d&risl=&pid=ImgRaw&r=0" alt="" width="37.8%" style="border-radius: 80px;">
+                    <div class="details">
+                      <p>BioAdvanced Complete Insect Killer with Germ Killer measures 24-ounces. Active Ingredients: 0.05% β- Cyfluthrin; 0.30% Sodium O-phenylphenate.</p>
+                      <h3>Price: $449/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button><br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product19">
+                    <center><h2>Decis</h2>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/TM/ZC/FH/28154989/bayer-decis-agriculture-insecticide.JPG" alt="" width="52%" style="border-radius: 50px;">
+                    <div class="details">
+                      <p>acts by contact and ingestion, and exhibiting a broad spectrum control of chewing and sucking insects.</p>
+                      <h3>Price: $499/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>
+
+
+                  <div class="product20">
+                    <center><h2>Laudis</h2>
+                        <img src="https://www.agriplexindia.com/cdn/shop/files/2.png?v=1690374207" alt="" width="52%" style="border-radius: 20px;">
+                    <div class="details">
+                      <p>provides powerful residual grass and broadleaf control combined with crop safety.</p>
+                      <h3>Price: $799/-</h3>
+                      <button>Add to Cart</button>
+                      <button>Buy Now</button>
+                      <br><br>
+                      <!-- <button>See More</button> -->
+                    </div></center>
+                  </div>   
+                </div>   
+
+<div id="seemore"><button class="seebutt">SEE MORE</button></div>
+<div id="brand"><img src="brand.png" alt=""></div>
+
+
+
+
+
+ 
+
+
+
+ <div id="about">
+  <h1>About us</h1>
+  <hr>
+<div>
+  <h2>What Sree Agro Forms (SAF) will do ?</h2>
+  <h4 style="opacity: 0.7;">SREE AGRO FORMS is an online agricultural market and platform that offers a modern retail experience to indian farmers. At SREE AGRO FORMS, you get easy access to an online farmers' store as well as to services like charcha manch, free soil testing, and a lot more.
+
+    Choose from a wide range of seeds, fertilisers, pesticides, cattle feed, bio-stimulants, sprayers, and other agricultural implements and farm products online with ease.</p>
+    <h2>The Establish of The Online Agri Store</h2>
+    <h4 style="opacity: 0.7;">With an aim to connect all the farmers and cooperative societies in India, SREE AGRO FORMS, one of the largest cooperatives in the world, launched "www.sreeagroforms.in" Agri e-commerce store. The platform was launched in line with the government's initiative of 'Digital India". It offers the perfect platform that allows for seamless communication and commerce between SAF and its Joint Ventures, with consumers, and between various societies.
+
+      The platform is available in 12 different regional languages including English and Hindi which ensures effortless connectivity between rural India and the rest of the country. In order to empower the farmers of the country in having more control over the commercial aspect of their businesses, this online Agri store also offers several benefits like the free home delivery scheme, Cash on delivery and no minimum order value for the rural areas of india,</h4>
+      <h2>Features of SREE AGRO FORMS</h2>
+      <h4 style="opacity: 0.7;">Designed to offer complete convenience to indian farmers and rural societies in the country, SREE AGRO FORMS is available in 12 regional languages. This includes Hindi, English, lengalk Marathi, Gujarati, Punjabi, Telugu Tamil, Kannada, Malayalam, Assamese, and Oriya. The availability in regional languages helps ensure a wide reach for the online Agri store and makes it exceedingly easy for people to buy farm products online from wherever they are
+
+        The platform offers easy registration for societies and individuals using only their mobile number and affers collective information about the platform and its various schemes, business and career opportunities for individuals
+        
+        One of the best online shopping websites for agriculture, people also get access to discussion forums where they can easily ask questions or share ideas ond best practices. The forum also has facilities that allow commenting and voting to ensure an interactive experience for everyone.
+        
+        A very important feature of the SREE AGRO FORMS platform and its online farmers store is KisanMitr -Friends of the Farmers Project. An initiative by the Office of the Principal Scientific Adviser, Government of India, the project is aimed at helping Indian farmers become more self-reliant offering them insights and recommendations that are based on information gleaned from numerous data sources from various departments of the Government
+        
+        Other features offered by SREE AGRO FORMS that make it the best online agricultural market available to indian farmers today include learn-by-self capabilities with videns, blogs, and other content on topics like the best practices in farming or rearing live-stock, soll testing, mears of cashless payments, and so on, online buying facilities for the products and services offered by all verticals of SREE AGRO FORMS and its Joint Ventures, access to information regarding future events, including farmers meet, medical or veterinary check-ups, and much more.</h4>
+        <img src="why.png" alt="" id="why">
+
+      </div>
+ </div>
+
+
+ <div id="contact">
+        <h1 id="us">Contact Us</h1>
+        <hr>
+        <center>
+        <form id="form">
+          <div id="formdiv">
+            <label style="font-size: larger;">Name : *</label>
+            <input type="text" placeholder="Enter Name" style="border-radius: 5px; height: 25px;"><br><br>
+            <label style="font-size:medium;">E-Mail : *</label>
+            <input type="email" placeholder="Enter E-Mail" style="border-radius: 5px; height: 25px;"><br><br>
+            <label style="font-size:medium;">Number : *</label>
+            <input type="number" placeholder="Enter number" style="border-radius: 5px; height: 25px;"><br><br>
+            <input type="submit" id="ussubmit">
+          </div>
+        </form>
+      </center>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+  
+     document.forms[0].addEventListener("submit",function(e){
+       e.preventDefault();
+       alert("weldone")
+      console.log(e)
+      var m=document.createElement("img");
+      m.setAttribute("src","https://th.bing.com/th/id/OIP.c0wQVzwFCn10H968yxJUFAHaHa?rs=1&pid=ImgDetMain");
+      document.body.appendChild(m)
+     });
+
+
+
+
+    </script>
+
+</body>
+</html>
